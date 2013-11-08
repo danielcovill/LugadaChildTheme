@@ -1,0 +1,27 @@
+/*   
+Theme Name: lugada-child
+Description: A Child Theme of Lugada
+Template: lugada
+Theme URI:      http://gadaboutart.com
+Author:         Dan Covill
+Author URI:     http://refactor-blog.com
+Version:        0.1.0
+*/
+@import url("../lugada/style.css");
+.row .column-sidebar { 
+	width: 25%; 
+}
+.row .column-content {
+	width: 70%;
+}
+/* ============= Responsive CSS ============= */
+@media only screen and (min-width: 240px) and ( max-width: 768px) {
+.row .column-sidebar, .row .column-half, .row .column-full {
+	width: auto;
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+}
